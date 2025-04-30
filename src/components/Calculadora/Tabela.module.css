@@ -1,18 +1,16 @@
 .container {
-    width: 100vw;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-h1{
+h2{
     display: flex;
     justify-content: center;
     color: #fff;
 }
 
 .containerCalculadora{
-    background-color: #192a56;
     padding: 2em;
     border-radius: 1em;
     width: 500px;
@@ -29,7 +27,7 @@ h1{
 }
 
 .containerCalculadora > label {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -38,12 +36,23 @@ h1{
     height: 30px;
     border-radius: 5px;
     border-color: #fff;
-    background-color: #273c75;
+    background-color: #E0D9F6;
     border-style:solid;
-    color: #fff;
+    color: #000;
+}
+
+.containerCalculadora > input:focus {
+    outline: none;
+    border-color: #586ae2;
 }
 
 .containerCalculadora > ::-webkit-input-placeholder{
     color: #fff;
     opacity: 40%;
+}
+
+@media(max-width: 768px) {
+    .containerCalculadora{
+        width: auto;
+    }
 }
