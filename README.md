@@ -42,10 +42,6 @@ Este é um projeto de uma calculadora de IMC (Índice de Massa Corporal) desenvo
 - `src/components/Section`: Contém outros componentes auxiliares.
 - `public/`: Contém arquivos estáticos, como imagens.
 
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
